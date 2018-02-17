@@ -33,8 +33,9 @@ header {
 	width: 210px;
 }
 .basis {
-	min-height: calc(100vh - 170px);
+	min-height: calc(100vh - 20px);
 	min-width: 960px;
+	height: 800px;
 }
 .basis_block {
 display: flex;
