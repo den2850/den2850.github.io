@@ -1,10 +1,14 @@
 .wrapper {
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 header {
 	background: #fbfbfb;
-
+	min-width: 960px;
+	-webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+         	background-size: cover;
 }
 .header-wrap {
 	display: flex;
@@ -30,6 +34,7 @@ header {
 }
 .basis {
 	min-height: calc(100vh - 170px);
+	min-width: 960px;
 }
 .basis_block {
 display: flex;
@@ -125,8 +130,13 @@ justify-content: space-between;
 	background: url(../img/polygon2.png) no-repeat;
 }
 footer {
+	min-width: 960px;
 	background: #23475e;
 	padding: 35px 0;
+	-webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+         	background-size: cover;
 }
 .footer-bottom {
 	display: flex;
