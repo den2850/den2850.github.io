@@ -1,0 +1,161 @@
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+header {
+	background: #fbfbfb;
+
+}
+.header-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 22px 0;
+}
+.number {
+	margin-left: 30px;
+	color: #000;
+	font-weight: bold;
+}
+.descr {
+	display: flex;
+	align-items: center;
+	font: 16px solid black;
+}
+.content {
+	width: 700px;
+}
+.sidebar {
+	width: 210px;
+}
+.basis_block {
+display: flex;
+justify-content: space-between;
+}
+.decor {
+	text-transform: uppercase;
+	color: #000;
+	font: bold 16px Arial;
+	margin-top: 40px;
+}
+.decor2 {
+	color: #aeaeae;
+	font: normal 14px Arial;
+	margin-bottom: 30px;
+}
+.status-img {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding: 30px 0 3px;
+}
+
+.status-line {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 7px 0 10px 0;
+	margin-left: 0px;
+}
+.status-text {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	font: 10px solid black;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+.term p{
+	margin-top: 35px;
+ 	color: #000;
+ 	font: bold 14px Arial;
+}
+.term p.day {
+	margin-top: 0;
+	font: normal 14px Arial;
+	color: #aeaeae;
+	margin-bottom: 15px;
+}
+.pasport {
+	background: #ffea00;
+	text-align: center;
+	padding: 10px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.transition {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+	margin: 35px 0 170px;
+}
+.question, .review, .seller{
+	display: flex;
+	align-items: center;
+}
+.question img, .review img, .seller img{
+	background: #3167b9;
+	padding: 8px;
+}
+.question a, .review a, .seller a{
+	background: #66ccff;
+	padding: 10.5px;
+	font-size: 12px;
+	color: #fff;
+}
+.seller a {
+	background: #ffea00;
+	color: #000;
+}
+footer {
+	background: #34495d;
+	padding: 35px 0;
+}
+.footer-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.sidebarr {
+
+}
+.sidebarr p {
+	text-align: left;
+}
+.sidebarr a {
+	text-align: center;
+	border: 1px solid #3b7bdd;
+	padding: 10px 50px;
+	margin-top: 10px;
+}
+.sidebarr a.ist {
+	background: #2671e3;
+	color: #fff;
+}
+.sidebarr .model {
+	width: 150px;
+}
+.sidebarr-product_one {
+	border: 1px solid #f0f0f0;
+	float: right;
+	padding: 30px;
+	margin: 10px 0;
+}
+.blaster {
+	color: #a0a0a0;
+	font: 12px solid Arial;
+	margin: 14px 0 10px;
+}
+.cent {
+	margin-bottom: 35px;
+	font-weight: bold;
+}
+.footer-bottom span{
+	text-transform: uppercase;
+	color:#fff;
+	font: bold 16px Arial;
+	margin-right: 50px; 
+}
+.footer-bottom span.bot{
+	margin-left: 10px;
+}
