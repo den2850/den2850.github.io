@@ -98,17 +98,34 @@ justify-content: space-between;
 	padding: 8px;
 }
 .question a, .review a, .seller a{
-	background: #66ccff;
+	background: #00c3ff;
 	padding: 10.5px;
 	font-size: 12px;
 	color: #fff;
 }
 .seller a {
-	background: #ffea00;
+	background: #ffeb00;
 	color: #000;
 }
+.question {
+	position: relative;
+}
+.question:before {
+		content: '';
+	display: block;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-size: 110px;
+	font-weight: 700;
+	line-height: 60px;
+	position: absolute;
+	top:13px;
+	left: 26px;
+	background: url(../img/polygon1.png) no-repeat;
+	width: 10px;
+	height: 10px;
+}
 footer {
-	background: #34495d;
+	background: #23475e;
 	padding: 35px 0;
 }
 .footer-bottom {
@@ -124,12 +141,12 @@ footer {
 }
 .sidebarr a {
 	text-align: center;
-	border: 1px solid #3b7bdd;
+	border: 1px solid #007ce1;
 	padding: 10px 50px;
 	margin-top: 10px;
 }
 .sidebarr a.ist {
-	background: #2671e3;
+	background: #007ce1;
 	color: #fff;
 }
 .sidebarr .model {
