@@ -4,6 +4,7 @@
 @media only screen and (max-width : 720px) {
 	.wrapper {
 		max-width: 720px;
+		margin: 0 auto;
 	}
 	header {
 		padding: 0 20px;
@@ -24,13 +25,13 @@
 		display: block;
 	}
 	.content{
-		height: 590px;
-		
+		height: 650px;
+		margin: 0 auto;
 		text-align: center;
 	}
 	.status-img {
 		justify-content: space-between;
-		width: 600px;
+		width: 650px;
 		margin: 0 auto;
 	}
 	.status-img img {
@@ -38,11 +39,11 @@
 	}
 
 	.status-line_Shape__1 {
-		width: 132px;
+		width: 140px;
 		height: 1px;
 	}
 	.status-text {
-		width: 600px;
+		width: 650px;
 		margin: 0 auto;
 	}
 	.term p{
@@ -54,13 +55,13 @@
 		margin-bottom: 20px;
 	}
 	.maps-img, .pasport, .term  {
-		width: 600px;
+		width: 650px;
 		margin: 0 auto;
 		display: block;
 		text-align: center;
 	}
 	.transition {
-		width: 600px;
+		width: 650px;
 		margin: 0 auto;
 	}
 	.sidebarr {
