@@ -33,7 +33,7 @@ header {
 	width: 210px;
 }
 .basis {
-	min-height: calc(100vh - 170px);
+	height: 800px;
 	min-width: 960px;
 }
 .basis_block {
