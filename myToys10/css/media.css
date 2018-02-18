@@ -17,7 +17,10 @@
     .descr {
     	padding-top: 20px;
     	justify-content: center;
-    	font: 20px solid black;
+    	font: 18px solid black;
+    }
+    .number {
+    	font: bold 20px  black;
     }
     .decor {
 		font: bold 20px Arial;
