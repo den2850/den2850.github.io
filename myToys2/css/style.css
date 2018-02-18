@@ -203,6 +203,9 @@ footer {
 .footer-bottom span.bot{
 	margin-left: 10px;
 }
-
+@-ms-viewport{
+     width:device-width;
+     zoom:1;
+}
 /*Адаптив*/
 
