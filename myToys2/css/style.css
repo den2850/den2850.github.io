@@ -35,6 +35,7 @@ header {
 .basis {
 	height: 800px;
 	min-width: 960px;
+	min-height: calc(100vh - 50px);
 }
 .basis_block {
 display: flex;
