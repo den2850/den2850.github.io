@@ -1,0 +1,123 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.wrapper {
+		max-width: 720px;
+		margin: 0 auto;
+	}
+	header {
+		padding: 0 20px;
+		min-width: 720px;
+		text-align: center;
+	}
+	.header-wrap {
+		display: block;
+	}
+    .descr {
+    	padding-top: 20px;
+    	justify-content: center;
+    	font: 18px solid black;
+    }
+    .number {
+    	font: bold 20px  black;
+    }
+    .decor {
+		font: bold 20px Arial;
+    }
+    .decor2 {
+		font: normal 18px Arial;
+    }
+    .status-text {
+    	font: 14px solid black;
+    }
+	.basis {
+		min-width: 720px;
+	}
+	.basis_block  {
+		display: block;
+	}
+	.content{
+		height: 700px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.status-img {
+		justify-content: space-between;
+		width: 650px;
+		margin: 0 auto;
+	}
+	.status-img img {
+		
+	}
+
+	.status-line_Shape__1 {
+		width: 140px;
+		height: 1px;
+	}
+	.status-text {
+		width: 650px;
+		margin: 0 auto;
+	}
+	.term p{
+		font: bold 22px Arial;
+		margin: 40px 0 0;
+	}
+	.term p.day {
+		font: normal 20px Arial;
+		margin-bottom: 20px;
+	}
+	.pasport {
+		font: bold 20px Arial;
+	}
+	.transition {
+		font: bold 22px Arial;
+	}
+	.question img, .review img, .seller img{
+		
+		padding: 14px;
+	}
+	.question a, .review a, .seller a{
+		padding: 15.5px;
+	}
+	.question:before, .review:before, .seller:before{
+		top:19px;
+		left: 39px;
+	}
+	.blaster {
+		font: 16px solid Arial;
+	}
+	.cent {
+		font: bold 16px  Arial;
+	}
+	.sidebarr a {
+		font: bold 16px Arial;
+	}
+	.maps-img, .pasport, .term  {
+		width: 650px;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+	.transition {
+		width: 650px;
+		margin: 0 auto;
+	}
+	.sidebarr {
+		display: flex;
+		justify-content: center;
+		width: 700px;
+	}
+	.sidebarr-product_one {
+		float: none;
+		margin: 10px auto;
+	}
+
+	footer {
+		min-width: 720px;
+	}
+	.footer-bottom {
+		justify-content: center;
+	}
+}
+
