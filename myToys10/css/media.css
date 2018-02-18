@@ -17,6 +17,16 @@
     .descr {
     	padding-top: 20px;
     	justify-content: center;
+    	font: 20px solid black;
+    }
+    .decor {
+		font: bold 20px Arial;
+    }
+    .decor2 {
+		font: normal 18px Arial;
+    }
+    .status-text {
+    	font: 14px solid black;
     }
 	.basis {
 		min-width: 720px;
@@ -25,7 +35,7 @@
 		display: block;
 	}
 	.content{
-		height: 650px;
+		height: 700px;
 		margin: 0 auto;
 		text-align: center;
 	}
@@ -47,12 +57,38 @@
 		margin: 0 auto;
 	}
 	.term p{
-		font: bold 18px Arial;
+		font: bold 22px Arial;
 		margin: 40px 0 0;
 	}
 	.term p.day {
-		font: normal 16px Arial;
+		font: normal 20px Arial;
 		margin-bottom: 20px;
+	}
+	.pasport {
+		font: bold 20px Arial;
+	}
+	.transition {
+		font: bold 22px Arial;
+	}
+	.question img, .review img, .seller img{
+		
+		padding: 14px;
+	}
+	.question a, .review a, .seller a{
+		padding: 15.5px;
+	}
+	.question:before, .review:before, .seller:before{
+		top:19px;
+		left: 39px;
+	}
+	.blaster {
+		font: 16px solid Arial;
+	}
+	.cent {
+		font: bold 16px  Arial;
+	}
+	.sidebarr a {
+		font: bold 16px Arial;
 	}
 	.maps-img, .pasport, .term  {
 		width: 650px;
