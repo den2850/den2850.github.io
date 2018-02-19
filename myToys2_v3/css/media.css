@@ -64,7 +64,7 @@
 		left: 39px;
 	}
 	.blaster {
-		font: 16px solid Arial;
+		font: 14px solid Arial;
 	}
 	.cent {
 		font: bold 16px  Arial;
@@ -123,15 +123,16 @@
 		display: flex;
 		justify-content: center;
 		width: 700px;
-		margin-top: 20px;
+		margin-top: 20px;		
 	}
 	.sidebarr-product_one {
 		float: none;
 		margin: 10px auto;
+
 	}
 
 	footer {
-		margin-top: 80px;
+		margin-top: 100px;
 		min-width: 720px;
 	}
 	.footer-bottom {
