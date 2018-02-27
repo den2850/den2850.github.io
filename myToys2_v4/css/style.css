@@ -34,7 +34,6 @@ header {
 	padding-top: 30px;
 }
 .basis {
-	height: 800px;
 	min-width: 960px;
 	min-height: calc(100vh - 170px);
 }
