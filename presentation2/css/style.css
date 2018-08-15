@@ -9,6 +9,9 @@ body {
 	margin: 0 auto;
 	width: 1200px;
 }
+section {
+
+}
 h1 {
 	font-size: 22px;
 	line-height: 26px;
@@ -29,6 +32,7 @@ p {
 	color: white;
 	padding-top: 60px;
 	padding-left: 40px;
+	margin-top: 50px;
 	
 }
 .block1_left img, .block2_left img, .block3_left img, .block4_left img, .block5_left img, .block6_left img  {
@@ -259,7 +263,7 @@ p {
 /*****block5*****/
 
 .block5 {
-	width: 1200px;
+	width: 1150px;
 	margin: 50px 0;
 }
 .block5_left {
@@ -272,7 +276,6 @@ p {
 .block5_left p{
 	font-size: 14px;
 	line-height: 20px;
-	width: 1200px;
 	margin-bottom: 10px;
 }
 .block5_right {
