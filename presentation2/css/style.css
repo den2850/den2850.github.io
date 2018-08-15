@@ -117,7 +117,7 @@ p {
 }
 .block2_right__out {
 	width: 500px;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 .block2_right__out img.nol {
 	width: 50px;
@@ -167,7 +167,7 @@ p {
 .pos {
 	position: relative;
 	top: -233px;
-	left: 198px;
+	left: 205px;
 	width: 100px;
 	font-size: 10px;
 	margin-left: 33px;
@@ -177,7 +177,7 @@ p {
 .pos2 {
 	position: relative;
 	top: -183px;
-	left: 198px;
+	left: 205px;
 	bottom: 0;
 	width: 100px;
 	font-size: 10px;
@@ -195,12 +195,13 @@ p {
 	width: 180px;
 	height: 300px;
 	margin-top: 50px;
-	margin-left: 190px;
+	margin-left: 195px;
 
 }
 .block3_right__img-one img.colocol {
 	width: 300px;
 	height: 300px;
+
 }
 
 /*****block4*****/
@@ -247,7 +248,7 @@ p {
 .block4_right img {
 	width: 220px;
 	height: 380px;
-	margin-left: 115px;
+	margin-left: 105px;
 	padding-bottom: 50px;
   margin-top: 75px;
 }
@@ -308,7 +309,8 @@ p {
 }
 .block4_right__img-one img.telefon12 {
 	width: 180px;
-	height: 254px;
+	height: 294px;
+	margin-right: 30px;
 }
 
 /*****block6*****/
@@ -451,4 +453,5 @@ p {
 .block4_right__img-one .castle {
 	width: 350px;
 	height: 230px;
+	margin-right: 35px;
 }
