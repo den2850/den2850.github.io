@@ -1,16 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<meta name="viewport" content="width=720, user-scalable=yes" />
 	<title>Главная</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/icomoon.css" />
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="stylesheet" type="text/css" href="css/slick.css" />
-	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,900,900i" rel="stylesheet">
 </head>
 <body>
 	<div class="wrapper">
@@ -72,13 +70,7 @@
 				</div>
 			</div>		
 		</section>
-		<section class="block3">		
-			<div class="block3_left">
-				<img src="img/line_b.png">
-				<h1>Мы научилисьпрогнозировать срокдоставки посылок с точностью до 94%</h1><br>
-				<p>Вы сможете держать покупателей в курсе о том, сколько дней осталось до поступления заказа в почтовое отделение.  
-				</p>
-			</div>
+		<section class="block3">					
 			<div class="block3_right">
 				<div class="block3_right__out">
 					<div class="block3_right__img-one">
@@ -87,6 +79,12 @@
 						<p class="pos2">Заказ от shop.ru будет доставлен в Ваше почтовое отделение через три дня. (31.07.2018)</p>
 					</div>							
 				</div>
+			</div>
+			<div class="block3_left">
+				<img src="img/line_b.png">
+				<h1>Мы научилисьпрогнозировать срокдоставки посылок с точностью до 94%</h1><br>
+				<p>Вы сможете держать покупателей в курсе о том, сколько дней осталось до поступления заказа в почтовое отделение.  
+				</p>
 			</div>		
 		</section>	
 		<section class="block4">		
@@ -105,7 +103,14 @@
 				</div>
 			</div>		
 		</section>	
-		<section class="block4">		
+		<section class="block4">					
+			<div class="block4_right">
+				<div class="block4_right__out">
+					<div class="block4_right__img-one">
+						<img class="colocol" src="img/shest.png">
+					</div>							
+				</div>
+			</div>
 			<div class="block4_left">
 				<img src="img/line_b.png">
 				<h1>Небольшие доработки интерфейса</h1><br>
@@ -113,14 +118,7 @@
 				<p>Отправка уведомлений только в рабочие дни</p>
 				<p>Теперь при смене пароля Вам будет выслан на email не только новый пароль, но и новый API-ключ</p>
 				<p>Новости проекта теперь доступны в личном кабинете</p>
-			</div>
-			<div class="block4_right">
-				<div class="block4_right__out">
-					<div class="block4_right__img-one">
-						<img class="colocol" src="img/shest.png">
-					</div>							
-				</div>
-			</div>		
+			</div>	
 		</section>
 		<section class="block5">		
 			<div class="block5_left">
@@ -145,16 +143,11 @@
 				</div>
 			</div>		
 		</section>
-		<section class="block6">		
-			<div class="block6_left">
-				<img src="img/line_b.png">
-				<h1>Локальное время отправки уведомлений</h1><br>
-				<p>Теперь в кабинете доступна возможность настройки времени отправки уведомлений исходя из локального времени получателя. </p> 				
-			</div>
+		<section class="block6">
 			<div class="block6_right">
 				<div class="block6_right__out">
-					<p>Покупателей в черном списке: 7186421</p>	
-					<p>Внимание! Вся информация носит рекомендательный характер.</p>
+					<p>Покупателей в черном списке: <span class="number_bold">7186421</span></p>	
+					<p class="text_red">Внимание! Вся информация носит рекомендательный характер.</p>
 					<div class="block6_right__form">
 						<form action="" id="message">						
 							<input type="text" placeholder="..." >
@@ -163,41 +156,54 @@
 						</form>	
 					</div>										
 					<div class="block6_right__content">
-						<p>Найдено выкупленных посылок: 6</p>
-						<p>Найдено невыкупленных посылок: 19</p>
+						<p>Найдено выкупленных посылок: <span class="fon_g">6</span></p>
+           				<p>Найдено невыкупленных посылок: <span class="fon_r">19</span></p>
 							<div class="catalog">							
 								<div class="catalog1">
-									<p>Авто (запчасти, аксессуары и т.д.)</p>
-									<p>Не доставлено</p>
+									<p class="text_b">Авто (запчасти, аксессуары и т.д.)</p>
+									<p class="back_r">Не доставлено: 1</p>
 								</div>							
 							</div>
 							<div class="catalog">							
 								<div class="catalog1">
-									<p>Интим-товары</p>
-									<p>Доставлено</p>
+									<p class="text_b">Интим-товары</p>
+									<p class="back_g son_r">Доставлено: 1</p>
 								</div>							
 							</div>
 							<div class="catalog">							
 								<div class="catalog1">
-									<p>Интим-товары</p>
-									<p>Доставлено</p>
+									<p class="text_b">Одежда, обувь и аксессуары</p>
+									<p class="back_g">Доставлено: 2</p>
+									<p class="back_r">Не доставлено: 5</p>
 								</div>							
 							</div>
 							<div class="catalog">							
 								<div class="catalog1">
-									<p>Одежда, обувь и аксессуары</p>
-									<p>Доставлено</p>
-									<p>Не доставлено</p>
-								</div>							
-							</div>
-							<div class="catalog">							
-								<div class="catalog1">
-									<p>Другое</p>
-									<p>Доставлено</p>
-									<p>Не доставлено</p>
+									<p class="text_b">Другое</p>
+									<p class="back_g son_l">Доставлено: 3</p>
+									<p class="back_r">Не доставлено: 13</p>
 								</div>							
 							</div>
 					</div>					
+				</div>
+			</div>		
+			<div class="block6_left">
+				<img src="img/line_b.png">
+				<h1>Локальное время отправки уведомлений</h1><br>
+				<p>Теперь в кабинете доступна возможность настройки времени отправки уведомлений исходя из локального времени получателя. </p> 				
+			</div>					
+		</section>
+		<section class="block4">		
+			<div class="block4_left">
+				<img src="img/line_b.png">
+				<h1>Локальное время отправки уведомлений</h1><br>
+				<p>Теперь в кабинете доступна возможность настройки времени отправки уведомлений исходя из локального времени получателя. </p> 				
+			</div>
+			<div class="block4_right">
+				<div class="block4_right__out">
+					<div class="block4_right__img-one">
+						<img class="castle" src="img/castle.png">
+					</div>							
 				</div>
 			</div>		
 		</section>
