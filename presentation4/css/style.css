@@ -94,13 +94,13 @@ p {
 /******block2******/
 
 .block2 {
-	height: 400px;
+	height: 450px;
 	margin: 50px 0;
 }
 .block2_left {
 	line-height: 22px;
 	padding-left: 40px;
-	padding-top: 5px;
+	padding-top: 30px;
 }
 .block2_left p{
 	font-size: 14px;
@@ -112,7 +112,7 @@ p {
 	background: #0084ff;
 	padding-top: 50px;
 	padding-bottom: 40px;
-	height: 400px;
+	height: 450px;
 }
 .block2_right__img-one {
 	justify-content: center;
@@ -458,22 +458,35 @@ p {
 	margin-right: 35px;
 }
 .but {
-	text-align: center;
+		margin-left: 160px;
 }
-.but.top {
+.but1 {
+		margin-left: 180px;
+}
+.but2 {
+		margin-left: 180px;
+		padding-top: 20px;
+}
+.but3 {
+		margin-left: 475px;
+}
+.but1.top {
 	margin-top: 100px;
 }
 .btn1 {
-	padding: 10px 35px;
+	padding: 20px 45px;
 	border-radius: 5px;
 	border: none;
 	color: #ffffff;
 	background: #0084ff;
-  	font-size: 14px;
+  	font-size: 16px;
   	font-weight: bold;
 
 }
 .btn1:hover {
 	background: #0060ff;
 	transition: all .5s;
+}
+.block4_left.jon {
+	padding-top: 0px;
 }
