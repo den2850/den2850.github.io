@@ -462,13 +462,14 @@ p {
 }
 .but1 {
 		margin-left: 180px;
+		padding-top: 57px;
 }
 .but2 {
-		margin-left: 180px;
+		margin-left: 160px;
 		padding-top: 20px;
 }
 .but3 {
-		margin-left: 475px;
+		margin-left: 465px;
 }
 .but1.top {
 	margin-top: 100px;
