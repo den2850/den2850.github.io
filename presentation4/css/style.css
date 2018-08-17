@@ -256,9 +256,14 @@ p {
   margin-top: 75px;
 }
 .block4_right__img-one img.colocol {
-	width: 250px;
-	height: 250px;
+	width: 290px;
+	height: 290px;
 }
+.block4_right__img-one img.shest {
+	width: 280px;
+	height: 268px;
+}
+
 /*****block5*****/
 
 .block5 {
@@ -311,7 +316,7 @@ p {
 }
 .block4_right__img-one img.telefon12 {
 	width: 180px;
-	height: 294px;
+	height: 314px;
 	margin-right: 30px;
 }
 
