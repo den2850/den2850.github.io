@@ -1,0 +1,311 @@
+.demotable a[href^="#all"], .demotable a[href="#close"] {
+  text-decoration: none;
+}
+[id^="all1"],[id^="all2"],[id^="all3"],[id^="all5"] {
+  position: fixed; 
+}
+[id^="all1"]:target + table a[href^="#all1"],
+[id^="all1"]:not(:target) + table tbody tr:nth-of-type(n+2),
+[id^="all1"]:not(:target) + table a[href="#close1"] {
+  display: none;
+}
+
+[id^="all2"]:target + table a[href^="#all2"],
+[id^="all2"]:not(:target) + table tbody tr:nth-of-type(n+2),
+[id^="all2"]:not(:target) + table a[href="#close2"] {
+  display: none;
+}
+
+[id^="all3"]:target + table a[href^="#all3"],
+[id^="all3"]:not(:target) + table tbody tr:nth-of-type(n+2),
+[id^="all3"]:not(:target) + table a[href="#close3"] {
+  display: none;
+}
+
+[id^="all4"]:target + table a[href^="#all4"],
+[id^="all4"]:not(:target) + table tbody tr:nth-of-type(n+2),
+[id^="all4"]:not(:target) + table a[href="#close4"] {
+  display: none;
+}
+
+[id^="all5"]:target + table a[href^="#all5"],
+[id^="all5"]:not(:target) + table tbody tr:nth-of-type(n+2),
+[id^="all5"]:not(:target) + table a[href="#close5"] {
+  display: none;
+}
+body {
+	font-family: "MyriadProRegular",sans-serif;
+	font-size: 16px;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+.header-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+.main {
+	list-style: none;
+}
+.main__item {
+	float: left;
+	margin-left: 25px;
+}
+.main__item_link {
+	 border-bottom:3px solid rgba(0,153,255,0);
+	 padding-bottom: 22px;
+	 font: 16px 'MyriadProRegular',sans-serif;
+}
+.main__item_link:hover {
+	border-color:#0099ff; 
+	z-index:2; 
+}
+.skype-icon {
+	background: url(../images/skype.png) no-repeat;
+	width: 28px;
+	height: 28px;
+	position: relative;
+	margin-left: 70px;
+}
+.skype-icon:after {
+	content: '';
+	display: block;
+	background: url(../images/Rectangle.png) no-repeat;	
+	width: 1px;
+	height: 20px;
+	position: absolute;
+	right: -15px;
+	top: 5px;	
+}
+.skype-icon:before {
+	content: '';
+	display: block;
+	background: url(../images/Rectangle.png) no-repeat;	
+	width: 1px;
+	height: 20px;
+	position: absolute;
+	left: -15px;
+	top: 5px;	
+}
+.score {
+	margin: 0 15px 0 30px;
+	font: 16px 'MyriadProRegular',sans-serif;
+}
+.avtor {
+	margin: 0 12px;
+	font: 16px 'MyriadProRegular',sans-serif;
+}
+.line__bottom {
+	max-width: 1200px;
+	min-width: 960px;
+	margin: 15px auto 0;
+	height: 1px;
+	border-bottom: 1px solid #cccccc;
+}
+table {
+	margin: 0 auto !important;
+	color: #101026;
+}
+table td{
+	padding: 15px 0;
+	font: 15px 'MyriadProRegular',sans-serif;
+	color: #101026;
+}
+tfoot tr td{
+	font: 15px 'MyriadProSemiBold',sans-serif;
+	color: #101026;
+}
+.static {
+	margin-top: 60px;
+}
+.descr {
+	font: 35px 'MyriadProRegular',sans-serif;
+	position: relative;
+}
+.descr__line {
+	display: block;
+	position: absolute;
+	background: url(../images/line.png) no-repeat;
+	width: 115px;
+	height: 13px;
+	top: 15px;
+	left: -120px;
+}
+.static-system {
+	margin-top: 60px;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.static-system span {
+	padding: 15px;
+	border-bottom: 1px solid #06a8ff;
+}
+.static-system span.active {
+	border-bottom: 4px solid #06a8ff;
+}
+.static-system-web {
+	
+}
+.static-time {
+	margin: 58px 0 20px;
+	color:#999;
+	font: 18px 'MyriadProRegular',sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.static-time__item {
+	float:left;
+	list-style: none;
+	margin: 0 35px 0 0;
+}
+.static-time__item a {
+	font: 18px 'MyriadProRegular',sans-serif;
+	color:#999;
+}
+.static-time__item a.active {
+	border: 1px solid #06a8ff;
+	padding: 7px;
+	border-radius: 3px;
+}
+.static-time_active {
+	border: 1px solid #06a8ff;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+.calend {
+	margin: 0 10px 0 10px;
+	position: relative;
+}
+.calend-hyphen {
+	margin: 0 0 0 15px;
+}
+.calend:after {
+	content: '';
+	display: block;
+	background: url(../images/calend.png) no-repeat;
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top:4px;
+	right:-20px;
+	margin-left: 5px;
+}
+.period-text {
+	margin-left: 60px;
+}
+.period {
+	border: 1px solid #999;
+	padding: 15px 20px 15px 5px;
+	border-radius: 5px;
+}
+.text-sub {
+	font: 18px 'MyriadProRegular',sans-serif;
+	color: #000033;
+}
+.sub-color {
+	color: #06a8ff;
+}
+.sub-color:last-child {
+	margin-left: 190px;
+}
+.line-sub_bottom {
+	display: flex;
+	justify-content: flex-start;
+	margin: 5px 0 60px;
+}
+.sub-one_bottom {
+	display: flex;
+	width: 230px;
+	height: 1px;
+	background: #999;
+	margin-right: 30px;	
+}
+.pagination  {
+	display: flex;
+	justify-content: center;
+}
+.pagination {
+	margin: 40px auto 80px;
+	padding: 10px 15px;
+	background: #fff;
+	text-align: center;
+}
+.pagination__item {
+	float: left;
+	margin-right: 15px;
+	list-style: none;
+	position: relative;
+}
+.pagination__item:first-child:before {
+	content: "";
+	display: block;
+	position: absolute;
+	background: url(../images/arrow-left.png) no-repeat;
+	width: 10px;
+	height: 15px;
+	margin-right: 10px;
+	top: 0;
+	left: -25px;
+}
+.pagination__item:last-child:after {
+	content: "";
+	display: block;
+	position: absolute;
+	background: url(../images/arrow-right.png) no-repeat;
+	width: 10px;
+	height: 15px;
+	top: 0;
+	right: -25px;
+}
+.pagination__item_link {
+	font: 14px 'MyriadProRegular',sans-serif;
+	color: #000;
+}
+.pagination__item .active{
+	color: #ffffff;
+	padding: 5px 8px;
+	background: #06a8ff;
+	margin: 0;
+	border-radius: 5px;
+}
+.footer-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 22px 0;
+}
+.footer-nav__item {
+	list-style: none;
+	float: left;
+	margin-right: 30px;
+}
+.footer-nav__item_link {
+	color: #06a8ff;
+	font: 16px 'MyriadProRegular',sans-serif;
+}
+.footer_arrow-top {
+	margin-right: 330px;
+}
+.support {
+	font: 14px 'MyriadProRegular',sans-serif;
+	color: #999;	
+}
+.support__text {
+	font: 18px 'MyriadProRegular',sans-serif;
+	color: #000000;	
+}
+.item-skype {
+	display: block;
+	background: url(../images/skype-item.png) no-repeat;
+	width: 11px;
+	height: 12px;
+	float:left;
+}
